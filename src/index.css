@@ -62,3 +62,59 @@
 ::-webkit-scrollbar-thumb {
   @apply bg-black
 }
+
+@media only screen and (max-width: 450px) and (min-width:330px) {
+  .container {
+    @apply w-3/4 h-3/4 p-5 gap-3
+  }
+
+  .main-header {
+    @apply text-3xl
+  }
+
+  .input-box {
+    @apply text-sm h-7
+  }
+
+  .submit {
+    @apply text-sm h-7
+  }
+
+  .result-header {
+    @apply text-xl
+  }
+  
+  .result {
+    @apply text-base p-3
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .container {
+    @apply w-3/4 h-3/4 p-4
+  }
+
+  .main-header {
+    @apply text-lg
+  }
+
+  .input-box {
+    @apply p-2 h-8 text-xs
+  }
+  
+  .submit {
+    @apply p-2 h-8 text-xs
+  }
+
+  .result-holder {
+    @apply gap-2 p-2
+  }
+
+  .result-header {
+    @apply text-sm
+  }
+  
+  .result {
+    @apply text-xs p-2
+  }
+}
