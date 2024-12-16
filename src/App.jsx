@@ -24,7 +24,7 @@ function App() {
         engine: '2'
       },
       headers: {
-        'x-rapidapi-key': 'dcf67b0885mshb575ab13e81274dp19a061jsn8e8685fd7dd8',
+        'x-rapidapi-key': '34700a92a0msh4c9dd7d395f941bp1f3306jsn25a2532f1225',
         'x-rapidapi-host': 'article-extractor-and-summarizer.p.rapidapi.com'
       }
     };
